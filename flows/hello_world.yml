@@ -10,3 +10,7 @@ tasks:
   - id: welcome
     type: io.kestra.plugin.core.log.Log
     message: welcome to {{ inputs.greeting }}
+
+  - id: buy
+    type: io.kestra.plugin.core.log.Log
+    message: bye from {{ inputs.greeting }}    
