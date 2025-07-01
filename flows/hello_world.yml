@@ -1,5 +1,5 @@
 id: hello_world
-namespace: dev
+namespace: dev2
 
 inputs:
   - id: greeting
